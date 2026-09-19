@@ -8,8 +8,8 @@ Repository ini berisi bahan pembelajaran dalam format PDF dan akan diperbarui se
 
 | No. | Materi | File |
 |---|---|---|
-| 1 | Vektor | [Buka PDF](./01-Vektor/vektor.pdf) |
-| 2 | Matriks | [Buka PDF](./02-Matriks/matriks.pdf) |
+| 1 | Fondasi Aljabar Linear untukComputational Modelling  | [Buka PDF](./01-Vektor/vektor.pdf) |
+| 2 | Dari Data Menuju Fungsi | [Buka PDF](./02-Matriks/matriks.pdf) |
 
 > **Catatan:** Materi akan ditambahkan secara bertahap sesuai dengan pelaksanaan pembelajaran.
 
