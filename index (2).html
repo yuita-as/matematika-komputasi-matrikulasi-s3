@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matematika Komputasi | Matrikulasi S3</title>
+  <style>
+    :root {
+      --navy:#17324d; --blue:#2f6f9f; --light:#f5f8fb; --text:#243342;
+      --muted:#687887; --white:#ffffff; --line:#dfe7ee;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0; font-family:Arial, Helvetica, sans-serif;
+      color:var(--text); background:var(--light); line-height:1.6;
+    }
+    header {
+      background:linear-gradient(135deg,var(--navy),var(--blue));
+      color:white; padding:64px 24px 52px;
+    }
+    .wrap { max-width:960px; margin:auto; }
+    header h1 { margin:0 0 8px; font-size:2.35rem; }
+    header p { margin:4px 0; opacity:.94; }
+    main { padding:42px 24px 60px; }
+    .intro { margin-bottom:28px; }
+    .grid {
+      display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:18px;
+    }
+    .card {
+      background:var(--white); border:1px solid var(--line);
+      border-radius:14px; padding:24px; box-shadow:0 4px 14px rgba(23,50,77,.06);
+    }
+    .num {
+      display:inline-block; font-size:.8rem; font-weight:bold; color:var(--blue);
+      background:#eaf3f9; border-radius:20px; padding:4px 10px; margin-bottom:10px;
+    }
+    h2 { margin:0 0 8px; font-size:1.2rem; color:var(--navy); }
+    .card p { color:var(--muted); min-height:48px; }
+    .btn {
+      display:inline-block; margin-top:8px; padding:9px 14px; border-radius:8px;
+      background:var(--navy); color:white; text-decoration:none; font-weight:bold;
+    }
+    .btn:hover { background:var(--blue); }
+    footer {
+      text-align:center; padding:24px; color:var(--muted); font-size:.9rem;
+      border-top:1px solid var(--line); background:white;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Matematika Komputasi</h1>
+    <p>Matrikulasi Program Doktor (S3) Ilmu Komputer</p>
+    <p>Fakultas Ilmu Komputer – Universitas Brawijaya</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="intro">
+    <h2>Materi Perkuliahan</h2>
+    <p>Materi matrikulasi tersedia dalam empat bagian. Klik tombol pada setiap materi untuk membuka file PDF.</p>
+  </div>
+
+  <section class="grid">
+    <article class="card">
+      <span class="num">MATERI 01</span>
+      <h2>Materi 1</h2>
+      <p>Silakan ubah judul dan deskripsi materi sesuai kebutuhan.</p>
+      <a class="btn" href="materi/materi-01.pdf" target="_blank">Buka PDF</a>
+    </article>
+
+    <article class="card">
+      <span class="num">MATERI 02</span>
+      <h2>Materi 2</h2>
+      <p>Silakan ubah judul dan deskripsi materi sesuai kebutuhan.</p>
+      <a class="btn" href="materi/materi-02.pdf" target="_blank">Buka PDF</a>
+    </article>
+
+    <article class="card">
+      <span class="num">MATERI 03</span>
+      <h2>Materi 3</h2>
+      <p>Silakan ubah judul dan deskripsi materi sesuai kebutuhan.</p>
+      <a class="btn" href="materi/materi-03.pdf" target="_blank">Buka PDF</a>
+    </article>
+
+    <article class="card">
+      <span class="num">MATERI 04</span>
+      <h2>Materi 4</h2>
+      <p>Silakan ubah judul dan deskripsi materi sesuai kebutuhan.</p>
+      <a class="btn" href="materi/materi-04.pdf" target="_blank">Buka PDF</a>
+    </article>
+  </section>
+</main>
+
+<footer>
+  Matematika Komputasi · Matrikulasi S3 Ilmu Komputer · Universitas Brawijaya
+</footer>
+</body>
+</html>
